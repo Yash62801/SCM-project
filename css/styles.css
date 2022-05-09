@@ -1,0 +1,163 @@
+body{
+  text-align:center;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
+
+p{
+  font-size: 1.1rem;
+  color: #8f8f8f;
+}
+
+.title-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Panel */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+ .nav-item {
+   font-weight: normal;
+   padding: 0 16px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform:rotate(20deg);
+  position: absolute;
+  right: 25%;
+
+}
+/* Features*/
+#features{
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color:#ef8172;
+  padding-bottom: 3px;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+/* Testimonials-Section */
+#testimonials{
+  background-color: #ef8172;
+  color:#fff;
+
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom:3%;
+
+}
+
+.press-image{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+  padding:100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:1028px)  {
+  .title{
+    text-align: center;
+  }
+
+  .title_image{
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+/* Call to Action */
+#cta{
+  background-color: #ff4c68;
+  padding-left: 15%;
+  padding-right:15%;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.cta-heading{
+  font-size: 3.5rem;
+  color:#fff;
+}
+
+/* Footer */
+#footer{
+  padding: 6%;
+}
+
+.font-awes{
+  padding:20px 11px ;
+}
